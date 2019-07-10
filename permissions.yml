@@ -1,0 +1,240 @@
+groups:
+  Player:
+    options:
+      prefix: '&0[&fOutcast&0] '
+      default: true
+    permissions:
+    - essentials.afk
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.sethome
+    - essentials.delhome
+    - essentials.help
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.msg
+    - essentials.pay
+    - essentials.sell
+    - essentials.sell.*
+    - essentials.sethome.multiple.default
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.time
+    - essentials.tpa
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.signs.magic
+    - essentials.signs.use.*
+    - essentials.afk.auto
+    - essentials.kits.tools
+    - essentials.kits.firework
+    - essentials.kits.colors
+    - bskyblock.island
+    - bskyblock.island.*
+    - essentials.helpop
+    - essentials.getpos
+    - essentials.ignore
+    - essentials.me
+    - essentials.motd
+    - essentials.rules
+    - essentials.home
+    - -bskyblock.island.ban
+    - -bskyblock.island.expel
+  Admin:
+    inheritance:
+    - Player
+    options:
+      prefix: '&d[Admin] '
+    permissions:
+    - modifyworld.*
+    - worledit.*
+    - lagg.*
+    - bentobox.*
+    - playerheads.*
+    - vault.admin
+    - vault.update
+    - worldguard.*
+    - bskyblock.*
+    - essentials.fly.*
+    - essentials.gamemode.*
+    - essentials.god.*
+    - essentials.hat
+    - essentials.kit.*
+    - essentials.time.*
+    - essentials.getpos.others
+    - essentials.help.*
+    - essentials.ignore
+    - essentials.chat.ignoreexempt
+    - essentials.mail.*
+    - essentials.nick.*
+    - essentials.msg.*
+    - essentials.realname
+    - essentials.seen.*
+    - essentials.ban.*
+    - essentials.banip
+    - essentials.broadcast
+    - essentials.dejail
+    - essentials.jail
+    - essentials.jails
+    - essentials.kick.*
+    - essentials.mute.*
+    - -essentials.sethome.multiple.default
+    - essentials.sethome.multiple.admin
+    - essentials.tempban.*
+    - essentials.jail.exempt
+    - essentials.unban
+    - essentials.vanish.*
+    - essentials.back.*
+    - essentials.delhome.others
+    - essentials.sethome.multiple.unlimited
+    - essentials.tp.*
+    - essentials.tpaall
+    - essentials.warp.otherplayers
+    - essentials.chat.*
+    - essentials.signs.*
+    - essentials.afk.kickexempt
+    - essentials.getpos.others
+    - -bskyblock.mod.bypassprotect
+  Trial-Mod:
+    inheritance:
+    - Player
+    options:
+      prefix: '&6[Trial-Mod] '
+    permissions:
+    - modifyworld.*
+    - worledit.*
+    - lagg.*
+    - bentobox.*
+    - playerheads.*
+    - vault.admin
+    - vault.update
+    - worldguard.*
+    - bskyblock.*
+    - essentials.fly.*
+    - essentials.gamemode.*
+    - essentials.god.*
+    - essentials.hat
+    - essentials.kit.*
+    - essentials.time.*
+    - essentials.getpos.others
+    - essentials.help.*
+    - essentials.ignore
+    - essentials.chat.ignoreexempt
+    - essentials.mail.*
+    - essentials.nick.*
+    - essentials.msg.*
+    - essentials.realname
+    - essentials.seen.*
+    - essentials.ban.*
+    - essentials.banip
+    - essentials.broadcast
+    - essentials.dejail
+    - essentials.jail
+    - essentials.jails
+    - essentials.kick.*
+    - essentials.mute.*
+    - -essentials.sethome.multiple.default
+    - essentials.sethome.multiple.admin
+    - essentials.tempban.*
+    - essentials.jail.exempt
+    - essentials.unban
+    - essentials.vanish.*
+    - essentials.back.*
+    - essentials.delhome.others
+    - essentials.sethome.multiple.unlimited
+    - essentials.tp.*
+    - essentials.tpaall
+    - essentials.warp.otherplayers
+    - essentials.chat.*
+    - essentials.signs.*
+    - essentials.afk.kickexempt
+    - essentials.getpos.others
+    - -bskyblock.mod.bypassprotect
+  Mod:
+    inheritance:
+    - Player
+    options:
+      prefix: '&1[Mod]'
+    permissions:
+    - modifyworld.*
+    - lagg.*
+    - essentials.mute
+    - essentials.kick
+    - essentials.tempban
+    - essentials.dejail
+    - essentials.jail
+    - essentials.jails
+    - -essentials.sethome.multiple.default
+    - essentials.sethome.multiple.donor
+    - essentials.joinfullserver
+    - -bskyblock.mod.bypassprotect
+  Owner:
+    inheritance:
+    - Player
+    options:
+      prefix: '&4[Owner] '
+    permissions:
+    - modifyworld.*
+    - worledit.*
+    - lagg.*
+    - bentobox.*
+    - playerheads.*
+    - vault.admin
+    - vault.update
+    - worldguard.*
+    - bskyblock.*
+    - essentials.fly.*
+    - essentials.gamemode.*
+    - essentials.god.*
+    - essentials.hat
+    - essentials.kit.*
+    - essentials.time.*
+    - essentials.getpos.others
+    - essentials.help.*
+    - essentials.ignore
+    - essentials.chat.ignoreexempt
+    - essentials.mail.*
+    - essentials.nick.*
+    - essentials.msg.*
+    - essentials.realname
+    - essentials.seen.*
+    - essentials.ban.*
+    - essentials.banip
+    - essentials.broadcast
+    - essentials.dejail
+    - essentials.jail
+    - essentials.jails
+    - essentials.kick.*
+    - essentials.mute.*
+    - -essentials.sethome.multiple.default
+    - essentials.sethome.multiple.admin
+    - essentials.tempban.*
+    - essentials.jail.exempt
+    - essentials.unban
+    - essentials.vanish.*
+    - essentials.back.*
+    - essentials.delhome.others
+    - essentials.sethome.multiple.unlimited
+    - essentials.tp.*
+    - essentials.tpaall
+    - essentials.warp.otherplayers
+    - essentials.chat.*
+    - essentials.signs.*
+    - -bskyblock.mod.bypassprotect
+schema-version: 1
+users:
+  1ccf365d-9413-4966-a36d-1c766bccdb92:
+    group:
+    - Owner
+    options:
+      name: JoJoPetray
+      group: Owner
+  48c075e9-decc-4258-85ff-225ecf4836a7:
+    options:
+      group: Player
+      name: will_bops
+      prefix: '&d[Admin]'
